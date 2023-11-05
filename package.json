@@ -1,0 +1,43 @@
+{
+    "name": "nodemailer-hbs",
+    "version": "1.0.0",
+    "description": "Enables the npmjs/nodemailer to utilize the Handlebars library.",
+    "keywords": [
+        "nodemailer",
+        "hbs",
+        "handlebars",
+        "email",
+        "template"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dxgi/nodemailer-hbs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dxgi/nodemailer-hbs/issues"
+    },
+    "author": {
+        "name": "iMaximus Developer",
+        "email": "imaximushelp@gmail.com",
+        "url": "https://github.com/dxgi"
+    },
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "yarn run build"
+    },
+    "dependencies": {
+        "@types/express-handlebars": "^6.0.0",
+        "@types/nodemailer": "^6.4.13",
+        "dts-gen": "^0.7.2",
+        "express-handlebars": "^7.1.2",
+        "nodemailer": "^6.9.7",
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {}
+}
