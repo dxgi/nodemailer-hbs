@@ -1,4 +1,4 @@
-# nodemailer-express-handlebars
+# nodemailer-hbs
 
 This repository represents the modified and functional iteration of 'nodemailer-express-handlebars.' 
 
